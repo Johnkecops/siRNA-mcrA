@@ -1,0 +1,90 @@
+{
+  "conserved_rna": "GCAGGCAUCAAAGCAGGCAUCGACGCUGGCAUCAAAGCUG",
+  "best_w": 87,
+  "best_s": 0.9688,
+  "aln_len": 260,
+  "n_seqs": 8,
+  "top5": [
+    {
+      "pos": 1,
+      "target": "GCAGGCAUCAAAGCAGGCA",
+      "guide": "UGCCUGCUUUGAUGCCUGC",
+      "gc": 57.9,
+      "tmfe": -5.3,
+      "gmfe": -2.1,
+      "cmfe": -37.7,
+      "tstruct": "((..((......))..)).",
+      "gstruct": ".((..((......))..))",
+      "asym": true
+    },
+    {
+      "pos": 17,
+      "target": "GCAUCGACGCUGGCAUCAA",
+      "guide": "UUGAUGCCAGCGUCGAUGC",
+      "gc": 57.9,
+      "tmfe": -0.7,
+      "gmfe": -3.5,
+      "cmfe": -36.8,
+      "tstruct": "((......)).........",
+      "gstruct": "((((((....))))))...",
+      "asym": true
+    },
+    {
+      "pos": 4,
+      "target": "GGCAUCAAAGCAGGCAUCG",
+      "guide": "CGAUGCCUGCUUUGAUGCC",
+      "gc": 57.9,
+      "tmfe": -0.9,
+      "gmfe": -0.9,
+      "cmfe": -36.5,
+      "tstruct": ".((......))........",
+      "gstruct": "........((......)).",
+      "asym": true
+    },
+    {
+      "pos": 8,
+      "target": "UCAAAGCAGGCAUCGACGC",
+      "guide": "GCGUCGAUGCCUGCUUUGA",
+      "gc": 57.9,
+      "tmfe": 0.0,
+      "gmfe": -0.8,
+      "cmfe": -36.5,
+      "tstruct": "...................",
+      "gstruct": "(((........))).....",
+      "asym": false
+    },
+    {
+      "pos": 20,
+      "target": "UCGACGCUGGCAUCAAAGC",
+      "guide": "GCUUUGAUGCCAGCGUCGA",
+      "gc": 57.9,
+      "tmfe": -1.8,
+      "gmfe": -3.1,
+      "cmfe": -36.5,
+      "tstruct": ".....(((........)))",
+      "gstruct": "...((((((....))))))",
+      "asym": true
+    }
+  ],
+  "selected_sirna": {
+    "pos": 1,
+    "target": "GCAGGCAUCAAAGCAGGCA",
+    "guide": "UGCCUGCUUUGAUGCCUGC",
+    "gc": 57.9,
+    "tmfe": -5.3,
+    "gmfe": -2.1,
+    "cmfe": -37.7,
+    "tstruct": "((..((......))..)).",
+    "gstruct": ".((..((......))..))",
+    "asym": true
+  },
+  "mrna_mfe": -8.2,
+  "mrna_struct": "((..((......))..))......(((........)))..",
+  "sirna_mfe": -2.1,
+  "sirna_struct": ".((..((......))..))",
+  "cofold_mfe": -41.2,
+  "cofold_struct": "((((((((((((((((((())))))))))))))))))).....(((........)))..",
+  "target_accessibility": 0.581,
+  "sirna_conformations": 22,
+  "mrna_conformations": 94
+}

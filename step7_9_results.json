@@ -1,0 +1,283 @@
+{
+  "docking_model": "Antiparallel RNA duplex + MC refinement (CG WC scoring)",
+  "viennarna_cofold_mfe": -37.7,
+  "initial_duplex_energy": 120.99,
+  "best_docking_energy": 86.17,
+  "mc_steps": 3000,
+  "T_start_K": 300,
+  "T_end_K": 50,
+  "acceptance_rate": 0.028,
+  "wc_hbonds": 19,
+  "pi_stacking": 36,
+  "electrostatic_contacts": 0,
+  "hbond_details": [
+    {
+      "pos_guide": 1,
+      "pos_mrna": 19,
+      "pair": "U-A",
+      "d": 29.26
+    },
+    {
+      "pos_guide": 2,
+      "pos_mrna": 18,
+      "pair": "G-C",
+      "d": 30.76
+    },
+    {
+      "pos_guide": 3,
+      "pos_mrna": 17,
+      "pair": "C-G",
+      "d": 30.2
+    },
+    {
+      "pos_guide": 4,
+      "pos_mrna": 16,
+      "pair": "C-G",
+      "d": 27.69
+    },
+    {
+      "pos_guide": 5,
+      "pos_mrna": 15,
+      "pair": "U-A",
+      "d": 23.53
+    },
+    {
+      "pos_guide": 6,
+      "pos_mrna": 14,
+      "pair": "G-C",
+      "d": 18.21
+    },
+    {
+      "pos_guide": 7,
+      "pos_mrna": 13,
+      "pair": "C-G",
+      "d": 12.51
+    },
+    {
+      "pos_guide": 8,
+      "pos_mrna": 12,
+      "pair": "U-A",
+      "d": 8.07
+    },
+    {
+      "pos_guide": 9,
+      "pos_mrna": 11,
+      "pair": "U-A",
+      "d": 8.4
+    },
+    {
+      "pos_guide": 10,
+      "pos_mrna": 10,
+      "pair": "U-A",
+      "d": 12.79
+    },
+    {
+      "pos_guide": 11,
+      "pos_mrna": 9,
+      "pair": "G-C",
+      "d": 17.86
+    },
+    {
+      "pos_guide": 12,
+      "pos_mrna": 8,
+      "pair": "A-U",
+      "d": 22.38
+    },
+    {
+      "pos_guide": 13,
+      "pos_mrna": 7,
+      "pair": "U-A",
+      "d": 25.82
+    },
+    {
+      "pos_guide": 14,
+      "pos_mrna": 6,
+      "pair": "G-C",
+      "d": 27.87
+    },
+    {
+      "pos_guide": 15,
+      "pos_mrna": 5,
+      "pair": "C-G",
+      "d": 28.33
+    },
+    {
+      "pos_guide": 16,
+      "pos_mrna": 4,
+      "pair": "C-G",
+      "d": 27.14
+    },
+    {
+      "pos_guide": 17,
+      "pos_mrna": 3,
+      "pair": "U-A",
+      "d": 24.37
+    },
+    {
+      "pos_guide": 18,
+      "pos_mrna": 2,
+      "pair": "G-C",
+      "d": 20.25
+    },
+    {
+      "pos_guide": 19,
+      "pos_mrna": 1,
+      "pair": "C-G",
+      "d": 15.08
+    }
+  ],
+  "md": {
+    "model": "Brownian MD (harmonic restraint, 300 K)",
+    "n_snapshots": 20,
+    "initial_energy": 86.17,
+    "final_energy": 96.19,
+    "final_rmsd_A": 0.54,
+    "stability": "stable",
+    "energy_traj": [
+      86.17,
+      90.47,
+      94.11,
+      92.17,
+      91.9,
+      90.19,
+      92.23,
+      94.11,
+      92.31,
+      91.93,
+      91.98,
+      91.97,
+      93.99,
+      95.71,
+      93.54,
+      93.82,
+      91.82,
+      92.13,
+      92.35,
+      96.19
+    ],
+    "rmsd_traj": [
+      0.012,
+      0.157,
+      0.223,
+      0.26,
+      0.262,
+      0.279,
+      0.304,
+      0.327,
+      0.338,
+      0.346,
+      0.372,
+      0.405,
+      0.408,
+      0.41,
+      0.458,
+      0.476,
+      0.473,
+      0.528,
+      0.522,
+      0.539
+    ]
+  },
+  "wc_hbonds_total": 49,
+  "wc_pairs_detail": [
+    {
+      "pos": 1,
+      "pair": "U-A",
+      "hbonds": 2
+    },
+    {
+      "pos": 2,
+      "pair": "G-C",
+      "hbonds": 3
+    },
+    {
+      "pos": 3,
+      "pair": "C-G",
+      "hbonds": 3
+    },
+    {
+      "pos": 4,
+      "pair": "C-G",
+      "hbonds": 3
+    },
+    {
+      "pos": 5,
+      "pair": "U-A",
+      "hbonds": 2
+    },
+    {
+      "pos": 6,
+      "pair": "G-C",
+      "hbonds": 3
+    },
+    {
+      "pos": 7,
+      "pair": "C-G",
+      "hbonds": 3
+    },
+    {
+      "pos": 8,
+      "pair": "U-A",
+      "hbonds": 2
+    },
+    {
+      "pos": 9,
+      "pair": "U-A",
+      "hbonds": 2
+    },
+    {
+      "pos": 10,
+      "pair": "U-A",
+      "hbonds": 2
+    },
+    {
+      "pos": 11,
+      "pair": "G-C",
+      "hbonds": 3
+    },
+    {
+      "pos": 12,
+      "pair": "A-U",
+      "hbonds": 2
+    },
+    {
+      "pos": 13,
+      "pair": "U-A",
+      "hbonds": 2
+    },
+    {
+      "pos": 14,
+      "pair": "G-C",
+      "hbonds": 3
+    },
+    {
+      "pos": 15,
+      "pair": "C-G",
+      "hbonds": 3
+    },
+    {
+      "pos": 16,
+      "pair": "C-G",
+      "hbonds": 3
+    },
+    {
+      "pos": 17,
+      "pair": "U-A",
+      "hbonds": 2
+    },
+    {
+      "pos": 18,
+      "pair": "G-C",
+      "hbonds": 3
+    },
+    {
+      "pos": 19,
+      "pair": "C-G",
+      "hbonds": 3
+    }
+  ],
+  "metal_contacts": 5,
+  "viennarna_cofold_mfe_kcal_mol": -37.7,
+  "viennarna_mrna_mfe": -8.2,
+  "viennarna_sirna_mfe": -2.1
+}
