@@ -317,5 +317,6 @@ arli(dot)parikesit(at)i3l(dot)ac(dot)id
 ORCID: https://orcid.org/0000-0001-8716-3926
 
 ---
+**AI Assistance Disclaimer**: This codebase was developed with the assistance of Claude Code. While the AI provided code generation, debugging, and structural support, the human developer maintains full responsibility for reviewing, testing, and maintaining all content and functionality.
 
-*Last updated: April 2026*
+*Last updated: June 2026*
